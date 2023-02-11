@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myzagotovka</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <!-----------------------------------header----------->
+    <header class="header">
+      <div class="container header-container">
+        <div class="header-section">
+          <a href="" class="logo">
+            <svg class="header-logo-svg" width="60" height="65">
+              <use href="./images/sprite.svg#logo"></use>
+            </svg>
+          </a>
+
+          <!--Navigation-->
+          <nav class="header-nav">
+            <ul class="nav-list">
+              <li class="nav-item">
+                <a href="#home" class="link nav-link current">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="#made" class="link nav-link">How it's made?</a>
+              </li>
+              <li class="nav-item">
+                <a href="products" class="link nav-link">Our products</a>
+              </li>
+              <li class="nav-item">
+                <a href="contacts" class="link nav-link">Contacts</a>
+              </li>
+            </ul>
+          </nav>
+          <!------ ---------------Button header------------------------->
+
+          <button type="button" class="header-btn">
+            <span class="header-btn-text">Buy now</span>
+            <span class="header-button-span-svg">
+              <svg class="header-button-svg" width="12" height="12">
+                <use href="./images/sprite.svg#vector"></use>
+              </svg>
+            </span>
+          </button>
+          <!----------------modal burger------------------------->
+          <!-- <button class="header-modal-open js-open-menu">
+            <svg class="header-svg-open" width="32" height="32">
+              <use href="./images/sprite.svg#burger"></use>
+            </svg>
+          </button> -->
+        </div>
+      </div>
+      <!-- <div class="backdrop is-hidden">
+            <div class="modal">
+              <svg class="header-logo-svg-modal" width="48" height="44">
+                <use href="./images/sprite.svg#logo"></use>
+              </svg>
+           <button type="button" class="modal-close-btn" >
+            
+            
+
+            <svg class="modal-close-btn-icon" width="18" height="18"
+                <use href="./images/sprite.svg#vector-white"></use>
+              </svg>
+          </button>
+          <div class="mobil-text">
+           <ul class="mobil-list"
+           <li class="mobil-list-item">Home</li>
+            <li class="mobil-list-item">How it’s made?</li>
+            <li class="mobil-list-item">Our products</li>
+            <li class="mobil-list-item">Contact</li>
+          </ul>
+        </div>
+        </div>
+        </div> -->
+    </header>
+
+    <!----------PRODUCTS----------->
+    <main>
+      <section class="hero-section container">
+        <div class="hero-section-wrapper">
+          <h1 class="hero-header-title">ice cream made with passion</h1>
+          <div class="hero-header-count">
+            <div class="hero-header-numbers">
+              <p class="hero-number">16</p>
+              <p class="hero-text">cafes</p>
+            </div>
+            <div class="hero-header-numbers">
+              <p class="hero-number">23</p>
+              <p class="hero-text">food trucks</p>
+            </div>
+          </div>
+        </div>
+        <div class="hero-header-btn">
+          <a href="#products" class="hero-btn-products">Products</a>
+          <a href="#how-made" class="hero-btn-made">How it’s made?</a>
+        </div>
+
+        <div class="hero-descreption">
+          <picture>
+            <source
+              srcset="
+                ./images/desktop/icecreamplate.png   1x,
+                ./images/desktop/icecreamplate@2.png 2x
+              "
+              media="(min-width: 1200px)"
+            />
+            <source
+              srcset="./images/tablet/icecreamplate.png 1x, ./images/tablet/icecreamplate@2.png 2x"
+              media="(min-width: 768px)"
+            />
+            <img src="./images/tablet/icecreamplate.png" alt="icecream" class="hero-plate" />
+          </picture>
+          <p class="hero-descreption-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et
+          </p>
+          <div>
+            <a href="#" class="svg-hero">
+              <svg class="hero-svg" width="40" height="16">
+                <use href="./images/sprite.svg#arrow"></use>
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <!-- <picture>
+          <source
+            srcset="./images/desktop/icecream.png 1x, ./images/desktop/icecream@2.png 2x"
+            media="(min-width: 1200px)"
+          />
+          <source
+            srcset="./images/tablet/icecream.png 1x, ./images/tablet/icecream@2.png 2x"
+            media="(min-width: 768px)"
+          />
+          <img src="./images/tablet/icecream.png" alt="icecream" class="hero-icecream" />
+        </picture> -->
+      </section>
+
+      <section class="product">
+        <div class="container product-container">
+          <div class="product-label-title">
+            <label class="product-label">100% natural</label>
+            <h2 class="product-title">products</h2>
+          </div>
+
+          <div class="product-card">
+            <ul class="product-list">
+              <li class="product-item-cream">
+                <h3 class="product-title-item">ice cream</h3>
+                <p class="product-text">
+                  Soft ice cream with a delicate taste. Made with milk, cream, sugar and natural
+                  stabilizer
+                </p>
+                <a href="#" class="svg-product">
+                  <svg class="product-svg" width="40" height="16">
+                    <use href="./images/sprite.svg#arrow"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="product-item-coffe">
+                <h3 class="product-title-item">ice coffee</h3>
+                <p class="product-text">
+                  Fragrant invigorating drink created from 100% natural ingredients without the use
+                  of preservatives and flavor enhancers
+                </p>
+                <a href="#" class="svg-product">
+                  <svg class="product-svg" width="40" height="16">
+                    <use href="./images/sprite.svg#arrow"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="product-item-milk">
+                <h3 class="product-title-item">milkshakes</h3>
+                <p class="product-text">
+                  Sweet drinks based on milk and ice cream, supplemented with syrups, fruits,
+                  berries and other sweets of your choice
+                </p>
+                <a href="#" class="svg-product">
+                  <svg class="product-svg" width="40" height="16">
+                    <use href="./images/sprite.svg#arrow"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
