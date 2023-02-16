@@ -198,6 +198,14 @@ pointer-events: none;
   justify-content: space-between;
 }
 
+.hero-section {
+  padding-bottom: 103px;
+  background-image: url(../images/hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  position: relative;
+}
+
 .hero-header-btn {
   margin-bottom: 42px;
 }
@@ -298,7 +306,7 @@ pointer-events: none;
 /* *********************Hero-Header*************/
 .hero-descreption-text {
   display: inline-block;
-  margin: 0 0 24px 16px;
+  /* margin: 0 0 24px 16px; */
   max-width: 220px;
   font-family: Montserrat;
   font-size: 15px;
@@ -308,9 +316,15 @@ pointer-events: none;
   text-align: left;
 }
 
+.hero-descreption-box {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .hero-plate {
   display: inline-block;
-  margin-bottom: 65px;
+  vertical-align: middle;
+  /* margin-bottom: 65px; */
 }
 
 .hero-img-text {
@@ -327,8 +341,9 @@ pointer-events: none;
 
 .hero-icecream {
   position: absolute;
-  top: 125px;
-  right: 250px;
+  top: auto;
+  bottom: 0;
+  right: 92px;
 }
 
 /************************************PRODUCTS*******************/
