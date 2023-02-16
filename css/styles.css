@@ -506,6 +506,10 @@ pointer-events: none;
   color: #FCFCFC;
 }
 
+.advantages-img{
+border-radius: 1852.2px 
+}
+
 .made-text {
   max-width: 463px;
   font-family: 'Montserrat';
