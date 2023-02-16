@@ -377,7 +377,8 @@ pointer-events: none;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #131313;
-  margin-bottom: 120px;
+  margin-bottom: 172px;
+
 }
 
 
@@ -410,6 +411,7 @@ pointer-events: none;
   border-radius: 24px;
   width: 370px;
   margin-top: -200px;
+  margin-bottom: 60px;
 
 
 }
@@ -425,7 +427,7 @@ pointer-events: none;
   text-transform: uppercase;
   color: #131313;
   margin-bottom: 66px;
-  padding-top: 348px;
+  padding-top: 165px;
   margin-top: 348px;
 }
 
@@ -440,6 +442,7 @@ pointer-events: none;
   color: #131313;
   max-width: 242px;
   margin: 0 auto;
+  margin-bottom: 50px;
   /* margin-left: 61px;
   margin-right: 63px;
   margin-bottom: 50px; */
@@ -470,6 +473,10 @@ pointer-events: none;
   border-radius: 150px;
   background: linear-gradient(0deg, rgba(213, 117, 63, 0.7), rgba(213, 117, 63, 0.7)), #D9D9D9;
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+}
+
+.product-svg {
+  margin-bottom: 60px;
 }
 
 /**************How it"s made********************************************/
@@ -503,11 +510,16 @@ pointer-events: none;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #FCFCFC;
+  color: #131313;
 }
 
-.advantages-img{
-border-radius: 1852.2px 
+.product-title-cream {
+  margin-bottom: 80px;
+}
+
+.advantages-img {
+  border-radius: 1852.2px;
+
 }
 
 .made-text {
@@ -519,18 +531,18 @@ border-radius: 1852.2px
   line-height: 176%;
   letter-spacing: 0.04em;
   color: #FCFCFC;
-
 }
-
-
-
-
 
 .made-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 32px;
+
+}
+
+.made-btn {
+  margin-bottom: 146px;
 }
 
 .svg-cow {
@@ -542,9 +554,9 @@ border-radius: 1852.2px
   border-radius: 50%;
   fill: #131313;
   background-color: #F8D24E;
+  margin-left: 159px;
+
 }
-
-
 
 .made-number {
   font-family: 'Montserrat';
@@ -561,8 +573,21 @@ border-radius: 1852.2px
 
 }
 
-.maade-text {
+.made-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 176%;
+  letter-spacing: 0.02em;
+  color: #FCFCFC;
+}
 
+.three {
+  margin-bottom: 54px;
+}
+
+.made-text-number {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -571,4 +596,25 @@ border-radius: 1852.2px
   text-align: center;
   letter-spacing: 0.02em;
   color: #FCFCFC;
+  margin-bottom: 160px;
+}
+
+.advantages-img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(0deg, rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7)), #D9D9D9;
+  box-shadow: 0px 8px 30px rgba(153, 114, 23, 0.25);
+  border-radius: 250px;
+
+}
+
+.product-item-cow-img {
+  position: relative;
+
+  border: 2 solid red;
+}
+
+.made-text-btn {
+  margin-left: 616px;
 }
