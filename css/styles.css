@@ -510,7 +510,7 @@ pointer-events: none;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #131313;
+  color: #FCFCFC;
 }
 
 .product-title-cream {
@@ -531,7 +531,14 @@ pointer-events: none;
   line-height: 176%;
   letter-spacing: 0.04em;
   color: #FCFCFC;
+
 }
+
+.one {
+  margin-top: 172px;
+}
+
+
 
 .made-list {
   display: flex;
@@ -555,7 +562,6 @@ pointer-events: none;
   fill: #131313;
   background-color: #F8D24E;
   margin-left: 159px;
-
 }
 
 .made-number {
@@ -570,23 +576,11 @@ pointer-events: none;
   color: #FCFCFC;
   margin-top: 40px;
   margin-bottom: 12px;
-
-}
-
-.made-text {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 176%;
-  letter-spacing: 0.02em;
-  color: #FCFCFC;
 }
 
 .three {
   margin-bottom: 54px;
 }
-
 .made-text-number {
   font-family: 'Montserrat';
   font-style: normal;
@@ -612,7 +606,6 @@ pointer-events: none;
 .product-item-cow-img {
   position: relative;
 
-  border: 2 solid red;
 }
 
 .made-text-btn {
