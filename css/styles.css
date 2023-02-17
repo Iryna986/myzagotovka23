@@ -194,6 +194,13 @@ pointer-events: none;
 
 /*****************************************hero*********************/
 /******Hero-header*****/
+.hero-section {
+  position: relative;
+  background-image: url(../images/hero-desktop.svg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
 .hero-section-wrapper {
   display: flex;
   justify-content: space-between;
@@ -261,7 +268,6 @@ pointer-events: none;
 }
 
 .hero-btn-products:hover {
-
   border: 1px solid #0A8817;
 }
 
@@ -292,14 +298,16 @@ pointer-events: none;
   color: #FCFCFC;
 }
 
-/* .hero-img-text {
-  display: flex;
-  justify-content: flex-start
-} */
-/* *********************Hero-Header*************/
+.hero-descreption-box {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .hero-descreption-text {
   display: inline-block;
-  margin: 0 0 24px 16px;
+  margin-left: 16px;
+  margin-bottom: 24px;
+  /* margin: 0 0 24px 16px; */
   max-width: 220px;
   font-family: Montserrat;
   font-size: 15px;
@@ -311,25 +319,32 @@ pointer-events: none;
 
 .hero-plate {
   display: inline-block;
+  vertical-align: middle;
   margin-bottom: 65px;
 }
 
+.hero-plate-text {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .hero-img-text {
-  display: flex;
+  /* display: flex;
   justify-content: flex-start;
-  align-items: center;
+  align-items: center; */
 }
 
 .hero-svg {
   display: block;
   fill: #FCFCFC;
-  margin-left: 16px;
+  margin-left: 16px
 }
 
 .hero-icecream {
   position: absolute;
-  top: 125px;
-  right: 250px;
+  top: auto;
+  bottom: 0;
+  right: 92px;
 }
 
 /************************************PRODUCTS*******************/
@@ -403,7 +418,7 @@ pointer-events: none;
   background-color: #EFD478;
   border-radius: 24px;
   width: 370px;
-  margin-top: -200px;
+  /* margin-top: -200px; */
 }
 
 .product-title-text-milk {
@@ -427,8 +442,8 @@ pointer-events: none;
   text-transform: uppercase;
   color: #131313;
   margin-bottom: 66px;
-  padding-top: 165px;
-  margin-top: 348px;
+  /* padding-top: 165px; */
+  /* margin-top: 348px; */
 }
 
 .product-text {
