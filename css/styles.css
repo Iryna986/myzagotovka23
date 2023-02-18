@@ -367,21 +367,47 @@ pointer-events: none;
   margin: 0 0 12px;
 }
 
-.product-item-cream-img {
+/****li*****/
+
+.product-item-cream {
   position: relative;
-  left: 10%;
+  width: 370px;
+  height: 536px;
+}
+
+.product-item-coffe {
+  position: relative;
+  width: 370px;
+  height: 536px;
+}
+
+.product-item-milk {
+  position: relative;
+  width: 370px;
+  height: 536px;
+}
+
+/**************/
+
+
+/****div*******/
+.product-item-cream-img {
+  position: absolute;
+  left: 34px;
+
 }
 
 .product-item-coffee-img {
-  position: relative;
-  left: 10%;
+  position: absolute;
+  left: 34px;
 }
 
 .product-item-milk-img {
-  position: relative;
-  left: 10%;
+  position: absolute;
+  left: 34px;
 }
 
+/*************/
 .product-title {
   font-family: 'Seymour One';
   font-style: normal;
@@ -392,10 +418,9 @@ pointer-events: none;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #131313;
-  margin-bottom: 172px;
+  margin-bottom: 120px;
 
 }
-
 
 .product-list {
   display: flex;
@@ -405,29 +430,28 @@ pointer-events: none;
   text-align: center;
 }
 
-
-
 .product-title-text-cream {
   background-color: #84a178;
   border-radius: 24px;
   width: 370px;
-  margin-top: -200px;
+  height: 536px;
+  margin-top: 150px;
 }
 
 .product-title-text-coffe {
   background-color: #EFD478;
   border-radius: 24px;
   width: 370px;
-  /* margin-top: -200px; */
+  height: 536px;
+  margin-top: 150px;
 }
 
 .product-title-text-milk {
   background-color: #D6936D;
   border-radius: 24px;
   width: 370px;
-  margin-top: -200px;
-  margin-bottom: 60px;
-
+  height: 536px;
+  margin-top: 150px;
 
 }
 
@@ -442,7 +466,7 @@ pointer-events: none;
   text-transform: uppercase;
   color: #131313;
   margin-bottom: 66px;
-  /* padding-top: 165px; */
+  padding-top: 165px;
   /* margin-top: 348px; */
 }
 
@@ -465,33 +489,29 @@ pointer-events: none;
 
 /* border: 30px solid red; */
 .cream-img {
-  position: absolute;
-  margin: 0 auto;
-  margin-bottom: 30px;
+  /* margin: 0 auto;
+  margin-bottom: 30px; */
   border-radius: 150%;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .coffee-img {
-  position: absolute;
-  margin: 0 auto;
-  margin-bottom: 30px;
+  /* margin: 0 auto;
+  margin-bottom: 30px; */
   border-radius: 150%;
   box-shadow: 0px 8px 30px rgba(153, 114, 23, 0.25);
 }
 
 .milk-img {
-  position: absolute;
-  display: block;
-  margin: 0 auto;
-  margin-bottom: 30px;
+  /* margin: 0 auto;
+  margin-bottom: 30px; */
   border-radius: 150px;
   background: linear-gradient(0deg, rgba(213, 117, 63, 0.7), rgba(213, 117, 63, 0.7)), #D9D9D9;
   box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
 }
 
 .product-svg {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 /**************How it"s made********************************************/
