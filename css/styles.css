@@ -371,20 +371,26 @@ pointer-events: none;
 
 .product-item-cream {
   position: relative;
-  width: 370px;
-  height: 536px;
+  display: inline-block;
+  margin-bottom: 60px;
+  /* width: 370px;
+  height: 536px; */
 }
 
 .product-item-coffe {
   position: relative;
-  width: 370px;
-  height: 536px;
+  display: inline-block;
+  margin-bottom: 60px;
+  /* width: 370px;
+  height: 536px; */
 }
 
 .product-item-milk {
   position: relative;
-  width: 370px;
-  height: 536px;
+  display: inline-block;
+  margin-bottom: 60px;
+  /* width: 370px;
+  height: 536px; */
 }
 
 /**************/
@@ -574,7 +580,6 @@ pointer-events: none;
 }
 
 
-
 .made-list {
   display: flex;
   justify-content: center;
@@ -630,8 +635,10 @@ pointer-events: none;
 }
 
 .advantages-img {
+  display: inline-block;
+  vertical-align: middle;
   position: absolute;
-  top: 0;
+  top: 30px;
   left: 0;
   background: linear-gradient(0deg, rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7)), #D9D9D9;
   box-shadow: 0px 8px 30px rgba(153, 114, 23, 0.25);
@@ -640,10 +647,15 @@ pointer-events: none;
 
 .product-item-cow-img {
   position: relative;
+  /* display: inline-block;
+  vertical-align: middle; */
 }
 
 .made-text-btn {
-  margin-left: 616px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -70px;
+  margin-left: 600px;
 }
 
 /****************************moreicecream**************/
