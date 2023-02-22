@@ -376,20 +376,26 @@ pointer-events: none;
 
 .product-item-cream {
   position: relative;
-  width: 370px;
-  height: 536px;
+  display: inline-block;
+  margin-bottom: 60px;
+  /* width: 370px;
+  height: 536px; */
 }
 
 .product-item-coffe {
   position: relative;
-  width: 370px;
-  height: 536px;
+  display: inline-block;
+  margin-bottom: 60px;
+  /* width: 370px;
+  height: 536px; */
 }
 
 .product-item-milk {
   position: relative;
-  width: 370px;
-  height: 536px;
+  display: inline-block;
+  margin-bottom: 60px;
+  /* width: 370px;
+  height: 536px; */
 }
 
 /**************/
@@ -497,22 +503,23 @@ pointer-events: none;
   /* margin: 0 auto;
   margin-bottom: 30px; */
   border-radius: 150%;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 16px 0px 0px rgba(156, 190, 143, 0.7);
+
 }
 
 .coffee-img {
   /* margin: 0 auto;
   margin-bottom: 30px; */
   border-radius: 150%;
-  box-shadow: 0px 8px 30px rgba(153, 114, 23, 0.25);
+  box-shadow: 0px 16px 0px 0px rgba(248, 210, 78, 0.7);
+
 }
 
 .milk-img {
   /* margin: 0 auto;
   margin-bottom: 30px; */
   border-radius: 150px;
-  background: linear-gradient(0deg, rgba(213, 117, 63, 0.7), rgba(213, 117, 63, 0.7)), #D9D9D9;
-  box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 16px 0px 0px rgba(213, 117, 63, 0.7);
 }
 
 .product-svg {
@@ -558,6 +565,7 @@ pointer-events: none;
 }
 
 .advantages-img {
+
   border-radius: 1852.2px;
 
 }
@@ -571,21 +579,17 @@ pointer-events: none;
   line-height: 176%;
   letter-spacing: 0.04em;
   color: #FCFCFC;
-
 }
 
 .one {
   margin-top: 172px;
 }
 
-
-
 .made-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 32px;
-
 }
 
 .made-btn {
@@ -635,20 +639,29 @@ pointer-events: none;
 }
 
 .advantages-img {
+  display: inline-block;
+  vertical-align: middle;
   position: absolute;
-  top: 0;
+  top: 30px;
   left: 0;
-  background: linear-gradient(0deg, rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7)), #D9D9D9;
-  box-shadow: 0px 8px 30px rgba(153, 114, 23, 0.25);
+  /* background: linear-gradient(0deg, rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7)), #D9D9D9; */
   border-radius: 250px;
+  box-shadow: 0px -30px 0px 0px rgba(248, 210, 78, 0.7);
+
 }
 
 .product-item-cow-img {
   position: relative;
+
+  /* display: inline-block;
+  vertical-align: middle; */
 }
 
 .made-text-btn {
-  margin-left: 616px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -70px;
+  margin-left: 600px;
 }
 
 /****************************moreicecream**************/
