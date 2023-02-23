@@ -400,17 +400,46 @@ pointer-events: none;
 .product-item-cream-img {
   position: absolute;
   left: 34px;
-
+  margin: 0 auto;
+  margin-top: -30px;
+  border-radius: 50%;
+  width: 302px;
+  height: 302px;
+  /* background: linear-gradient(0deg, rgba(156, 190, 143, 0.7), rgba(156, 190, 143, 0.7)), #D9D9D9;
+  box-shadow: 0px 8px 30px rgba(10, 136, 23, 0.25); */
+  background-color: #9CBE8F;
+  -webkit-box-shadow: 0px 16px 0px 0px rgba(180, 198, 169, 1);
+  -moz-box-shadow: 0px 16px 0px 0px rgba(180, 198, 169, 1);
+  box-shadow: 0px 16px 0px 0px rgba(180, 198, 169, 1);
+  overflow: hidden;
 }
 
 .product-item-coffee-img {
   position: absolute;
   left: 34px;
+  margin: 0 auto;
+  margin-top: -30px;
+  border-radius: 50%;
+  width: 302px;
+  height: 302px;
+  background: #F8D24E;
+  box-shadow: 0px 16px 0px 0px rgba(248, 210, 78, 0.7);
+  overflow: hidden;
 }
 
 .product-item-milk-img {
   position: absolute;
   left: 34px;
+  margin: 0 auto;
+  margin-top: -30px;
+  border-radius: 50%;
+  width: 302px;
+  height: 302px;
+  background: #D6936D;
+  -webkit-box-shadow: 0px 16px 0px 0px rgb(213 117 63 / 70%);
+  -moz-box-shadow: 0px 16px 0px 0px rgb(213 117 63 / 70%);
+  box-shadow: 0px 16px 0px 0px rgb(213 117 63 / 70%);
+  overflow: hidden;
 }
 
 /*************/
@@ -458,7 +487,6 @@ pointer-events: none;
   width: 370px;
   height: 536px;
   margin-top: 150px;
-
 }
 
 .product-title-item {
@@ -488,38 +516,28 @@ pointer-events: none;
   max-width: 242px;
   margin: 0 auto;
   margin-bottom: 50px;
-  /* margin-left: 61px;
-  margin-right: 63px;
-  margin-bottom: 50px; */
 }
 
-/* border: 30px solid red; */
 .cream-img {
-  /* margin: 0 auto;
-  margin-bottom: 30px; */
-  border-radius: 150%;
-  box-shadow: 0px 16px 0px 0px rgba(156, 190, 143, 0.7);
-
+  border-radius: 50%;
+  /* margin-top: -16px; */
 }
 
 .coffee-img {
-  /* margin: 0 auto;
-  margin-bottom: 30px; */
-  border-radius: 150%;
-  box-shadow: 0px 16px 0px 0px rgba(248, 210, 78, 0.7);
-
+  border-radius: 50%;
+  /* margin-top: -16px; */
 }
 
 .milk-img {
-  /* margin: 0 auto;
-  margin-bottom: 30px; */
-  border-radius: 150px;
-  box-shadow: 0px 16px 0px 0px rgba(213, 117, 63, 0.7);
+  border-radius: 50%;
+  /* margin-top: -16px; */
 }
 
 .product-svg {
   /* margin-bottom: 60px; */
 }
+
+
 
 /**************How it"s made********************************************/
 
@@ -542,7 +560,6 @@ pointer-events: none;
   margin-bottom: 19px;
 }
 
-
 .product-title {
   font-family: 'Seymour One';
   font-style: normal;
@@ -560,7 +577,6 @@ pointer-events: none;
 }
 
 .advantages-img {
-
   border-radius: 1852.2px;
 
 }
@@ -648,6 +664,7 @@ pointer-events: none;
 .product-item-cow-img {
   position: relative;
 
+
   /* display: inline-block;
   vertical-align: middle; */
 }
@@ -660,7 +677,19 @@ pointer-events: none;
 }
 
 /****************************moreicecream**************/
+.moreicecream {
+  background-image: url(../images/desktop/background.jpg);
+}
+
+
+.img-moreicecrem {
+  display: inline-block;
+  border-radius: 50%;
+  margin-top: -98px;
+}
+
 .moreice-picture {
-  max-width: 440px;
-  border-radius: 18px;
+  margin: 0 auto;
+  width: 1013px;
+  border-radius: 50%;
 }
