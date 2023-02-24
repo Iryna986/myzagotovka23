@@ -112,63 +112,49 @@
           <source srcset="
                 ./images/desktop/icecreamplate.png   1x,
                 ./images/desktop/icecreamplate@2.png 2x
-              "
-              media="(min-width: 1200px)"
-            />
-            <source
-              srcset="./images/tablet/icecreamplate.png 1x, ./images/tablet/icecreamplate@2.png 2x"
-              media="(min-width: 768px)"
-            />
-            <img src="./images/tablet/icecreamplate.png" alt="icecream" class="hero-plate" />
-          </picture>
-          <div class="hero-plate-text">
-            <p class="hero-descreption-text">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-              incididunt ut labore et
-            </p>
+              " media="(min-width: 1200px)" />
+          <source srcset="./images/tablet/icecreamplate.png 1x, ./images/tablet/icecreamplate@2.png 2x"
+            media="(min-width: 768px)" />
+          <img src="./images/tablet/icecreamplate.png" alt="icecream" class="hero-plate" />
+        </picture>
+        <div class="hero-plate-text">
+          <p class="hero-descreption-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et
+          </p>
 
-            <a href="#" class="svg-hero">
-              <svg class="hero-svg" width="40" height="16">
-                <use href="./images/sprite.svg#arrow"></use>
-              </svg>
-            </a>
-          </div>
+          <a href="#" class="svg-hero">
+            <svg class="hero-svg" width="40" height="16">
+              <use href="./images/sprite.svg#arrow"></use>
+            </svg>
+          </a>
         </div>
+      </div>
 
       <picture>
-          <source
-            srcset="./images/desktop/icecream.png 1x, ./images/desktop/icecream@2.png 2x"
-            media="(min-width: 1200px)"
-          />
-          <source
-            srcset="./images/tablet/icecream.png 1x, ./images/tablet/icecream@2.png 2x"
-            media="(min-width: 768px)"
-          />
-          <img src="./images/tablet/icecream.png" alt="icecream" class="hero-icecream" />
-        </picture>
+        <source srcset="./images/desktop/icecream.png 1x, ./images/desktop/icecream@2.png 2x"
+          media="(min-width: 1200px)" />
+        <source srcset="./images/tablet/icecream.png 1x, ./images/tablet/icecream@2.png 2x"
+          media="(min-width: 768px)" />
+        <img src="./images/tablet/icecream.png" alt="icecream" class="hero-icecream" />
+      </picture>
     </section>
-      <!----------PRODUCTS----------->
+    <!----------PRODUCTS----------->
     <section class="product">
       <div class="container product-container">
         <div class="product-label-title">
           <label class="product-label">100% natural</label>
           <h2 class="product-title">products</h2>
         </div>
-
-        <div class="product-card">
-          <ul class="product-list">
-            <li class="product-item-cream">
-              <div class="product-item-cream-img">
-                  <img
-                    class="cream-img"
-                    srcset="./images/desktop/threetype@2.jpg 2x"
-                    src="./images/desktop/threetype.jpg"
-                    alt="ice cream"
-                    width="302"
-                  />
-                </div>
-                <div class="product-title-text-cream">
-                  <h3 class="product-title-item">ice cream</h3>
+        <ul class="product-list">
+          <li class="product-item">
+            <div class="product-item-img"> 
+              <!-- добавити новий клас для градіента -->
+              <img class="cream-img" srcset="./images/desktop/threetype@2.jpg 2x" src="./images/desktop/threetype.jpg"
+                alt="ice cream" width="302" />
+            </div>
+            <div class="product-item-description product-item-cream">
+              <h3 class="product-title-item">ice cream</h3>
               <p class="product-text product-title-cream">
                 Soft ice cream with a delicate taste. Made with milk, cream, sugar and natural
                 stabilizer
@@ -179,17 +165,13 @@
                 </svg>
               </a>
             </div>
-              </li>
-            <li class="product-item-coffe"><div class="product-item-coffee-img">
-                  <img
-                    class="coffee-img"
-                    srcset="./images/desktop/icecoffee@2.jpg 2x"
-                    src="./images/desktop/icecoffee.jpg"
-                    alt="ice coffee"
-                    width="302"
-                  />
-                </div>
-                <div class="product-title-text-coffe">
+          </li>
+          <li class="product-item">
+            <div class="product-item-img">
+              <img class="coffee-img" srcset="./images/desktop/icecoffee@2.jpg 2x" src="./images/desktop/icecoffee.jpg"
+                alt="ice coffee" width="302" />
+            </div>
+            <div class="product-item-description product-item-coffe">
               <h3 class="product-title-item">ice coffee</h3>
               <p class="product-text">
                 Fragrant invigorating drink created from 100% natural ingredients without the
@@ -201,19 +183,14 @@
                 </svg>
               </a>
             </div>
-              </li>
-            <li class="product-item-milk">
-              <div class="product-item-milk-img">
-                  <img
-                    class="milk-img"
-                    srcset="./images/desktop/milkshakes@2.jpg 2x"
-                    src="./images/desktop/milkshakes.jpg"
-                    alt="milkshakes"
-                    width="302"
-                  />
-                </div>
-                <div class="product-title-text-milk">
-                  <h3 class="product-title-item">milkshakes</h3>
+          </li>
+          <li class="product-item">
+            <div class="product-item-img product-cream-gradient">
+              <img class="milk-img" srcset="./images/desktop/milkshakes@2.jpg 2x" src="./images/desktop/milkshakes.jpg"
+                alt="milkshakes" width="302" />
+            </div>
+            <div class="product-item-description product-item-milk">
+              <h3 class="product-title-item">milkshakes</h3>
               <p class="product-text">
                 Sweet drinks based on milk and ice cream, supplemented with syrups, fruits,
                 berries and other sweets of your choice
@@ -222,193 +199,166 @@
                 <svg class="product-svg" width="40" height="16">
                   <use href="./images/sprite.svg#arrow"></use>
                 </svg>
-              </a></div>
+              </a>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!---------------------------------How it"s made----------------------------------->
+    <section class="made">
+      <div class="container made-container">
+        <div class="made-label-title">
+          <label class="made-label">tradition and love</label>
+          <h2 class="product-title">how it’s made?</h2>
+        </div>
+        <div class="product-item-cow-img">
+          <picture>
+            <source class="advantages-img"
+              srcset="./images/desktop_webp/cow.webp 1x, ./images/desktop_webp/cow@2.webp 2x"
+              media="(min-width: 1200px)" type="image/webp" />
+            <source class="advantages-img" srcset="./images/desktop/cow.jpg 1x, ./images/desktop/cow@2.jpg 2x"
+              media="(min-width: 1200px)" />
+            <source class="advantages-img" srcset="./images/tablet_webp/cow.webp 1x, ./images/tablet_webp/cow@2.webp 2x"
+              media="(min-width: 768px)" type="image/webp" />
+            <source class="advantages-img" srcset="./images/tablet/cow.jpg 1x, ./images/tablet/cow@2.jpg 2x"
+              media="(min-width: 768px)" />
+            <source class="advantages-img" srcset="./images/mobile_webp/cow.webp 1x, ./images/mobile_webp/cow@2.webp 2x"
+              media="(max-width: 767px)" type="image/webp" />
+            <source class="advantages-img" srcset="./images/mobile/cow.jpg 1x, ./images/mobile/cow@2.jpg 2x"
+              media="(max-width: 767px)" />
+            <img src="./images/mobile/cow.jpg" alt="Cow" class="advantages-img" />
+          </picture>
+        </div>
+        <div class="made-text-btn">
+          <p class="made-text one">
+            Ice is a place where you will become not only a little happier, but also healthier.
+            Health is the main value for us, and we follow it when creating our handmade desserts.
+          </p>
+          <p class="made-text two">
+            We use traditional recipes and 100% natural ingredients. Our products are so natural
+            that they can be given to children from the age of three years. Sweets lovers can
+            expect 55 types of ice cream, 15 types of coffee and 23 milkshakes.
+          </p>
+          <p class="made-text three">
+            This is enough to choose ice cream and coffee for any mood!
+          </p>
+          <button type="button" class="header-btn made-btn">
+            <span class="header-btn-text">Read more</span>
+            <span class="header-button-span-svg">
+              <svg class="header-button-svg" width="12" height="12">
+                <use href="./images/sprite.svg#vector"></use>
+              </svg>
+            </span>
+          </button>
+        </div>
+        <div class="made-list-svg">
+          <ul class="made-list">
+            <li class="made-item">
+              <a href="#" class="svg-cow">
+                <svg class="cow-svg" width="36" height="36">
+                  <use href="./images/sprite.svg#cow"></use>
+                </svg>
+              </a>
+              <h2 class="made-number">721</h2>
+              <p class="made-text-number">
+                Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+              </p>
+            </li>
+            <li class="made-item">
+              <a href="#" class="svg-cow">
+                <svg class="cow-svg" width="36" height="36">
+                  <use href="./images/sprite.svg#weight"></use>
+                </svg>
+              </a>
+              <h2 class="made-number">16kg</h2>
+              <p class="made-text-number">
+                Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+              </p>
+            </li>
+            <li class="made-item">
+              <a href="#" class="svg-cow">
+                <svg class="cow-svg" width="36" height="36">
+                  <use href="./images/sprite.svg#ice-crema"></use>
+                </svg>
+              </a>
+              <h2 class="made-number">84</h2>
+              <p class="made-text-number">
+                Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+              </p>
             </li>
           </ul>
         </div>
       </div>
     </section>
-  <!---------------------------------How it"s made----------------------------------->
-      <section class="made">
-        <div class="container made-container">
-          <div class="made-label-title">
-            <label class="made-label">tradition and love</label>
-            <h2 class="product-title">how it’s made?</h2>
-          </div>
-          <div class="product-item-cow-img">
-            <picture>
-              <source
-                class="advantages-img"
-                srcset="./images/desktop_webp/cow.webp 1x, ./images/desktop_webp/cow@2.webp 2x"
-                media="(min-width: 1200px)"
-                type="image/webp"
-              />
-              <source
-                class="advantages-img"
-                srcset="./images/desktop/cow.jpg 1x, ./images/desktop/cow@2.jpg 2x"
-                media="(min-width: 1200px)"
-              />
-              <source
-                class="advantages-img"
-                srcset="./images/tablet_webp/cow.webp 1x, ./images/tablet_webp/cow@2.webp 2x"
-                media="(min-width: 768px)"
-                type="image/webp"
-              />
-              <source
-                class="advantages-img"
-                srcset="./images/tablet/cow.jpg 1x, ./images/tablet/cow@2.jpg 2x"
-                media="(min-width: 768px)"
-              />
-              <source
-                class="advantages-img"
-                srcset="./images/mobile_webp/cow.webp 1x, ./images/mobile_webp/cow@2.webp 2x"
-                media="(max-width: 767px)"
-                type="image/webp"
-              />
-              <source
-                class="advantages-img"
-                srcset="./images/mobile/cow.jpg 1x, ./images/mobile/cow@2.jpg 2x"
-                media="(max-width: 767px)"
-              />
-              <img src="./images/mobile/cow.jpg" alt="Cow" class="advantages-img" />
-            </picture>
-          </div>
-          <div class="made-text-btn">
-            <p class="made-text one">
-              Ice is a place where you will become not only a little happier, but also healthier.
-              Health is the main value for us, and we follow it when creating our handmade desserts.
-            </p>
-            <p class="made-text two">
-              We use traditional recipes and 100% natural ingredients. Our products are so natural
-              that they can be given to children from the age of three years. Sweets lovers can
-              expect 55 types of ice cream, 15 types of coffee and 23 milkshakes.
-            </p>
-            <p class="made-text three">
-              This is enough to choose ice cream and coffee for any mood!
-            </p>
-            <button type="button" class="header-btn made-btn">
-              <span class="header-btn-text">Read more</span>
-              <span class="header-button-span-svg">
-                <svg class="header-button-svg" width="12" height="12">
-                  <use href="./images/sprite.svg#vector"></use>
-                </svg>
-              </span>
-            </button>
-          </div>
-          <div class="made-list-svg">
-            <ul class="made-list">
-              <li class="made-item">
-                <a href="#" class="svg-cow">
-                  <svg class="cow-svg" width="36" height="36">
-                    <use href="./images/sprite.svg#cow"></use>
-                  </svg>
-                </a>
-                <h2 class="made-number">721</h2>
-                <p class="made-text-number">
-                  Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-                </p>
-              </li>
-              <li class="made-item">
-                <a href="#" class="svg-cow">
-                  <svg class="cow-svg" width="36" height="36">
-                    <use href="./images/sprite.svg#weight"></use>
-                  </svg>
-                </a>
-                <h2 class="made-number">16kg</h2>
-                <p class="made-text-number">
-                  Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-                </p>
-              </li>
-              <li class="made-item">
-                <a href="#" class="svg-cow">
-                  <svg class="cow-svg" width="36" height="36">
-                    <use href="./images/sprite.svg#ice-crema"></use>
-                  </svg>
-                </a>
-                <h2 class="made-number">84</h2>
-                <p class="made-text-number">
-                  Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-                </p>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </section>
-      <!--------------------moreicecream--------------------->
-      <section class="moreicecream">
-        <div class="container container-moreice">
-          <div class="moreice-picture">
-            <picture class="img-moreicecrem">
-              <source
-                srcset="
+    <!--------------------moreicecream--------------------->
+    <section class="moreicecream">
+      <div class="container container-moreice">
+        <div class="moreice-picture">
+          <picture class="img-moreicecrem">
+            <source srcset="
                   ./images/desktop/moreicecream.jpg   1x,
                   ./images/desktop/moreicecream@2.jpg 2x
-                "
-              />
-              <img src="./images/desktop/moreicecream.jpg" alt="icecream" />
-            </picture>
-          </div>
-          <div class="moreicecream-reviews">
-            <picture class="reviews-profile">
-              <source
-                srcset="
+                " />
+            <img src="./images/desktop/moreicecream.jpg" alt="icecream" />
+          </picture>
+        </div>
+        <div class="moreicecream-reviews">
+          <picture class="reviews-profile">
+            <source srcset="
                   /src/images/desktop_webp/pfofile.webp   1x,
                   /src/images/desktop_webp/pfofile@2.webp 2x
-                "
-                type="image/webp"
-              />
-              <source
-                srcset="/src/images/desktop/pfofile.jpg 1x, /src/images/desktop/pfofile@2.jpg 2x"
-              />
+                " type="image/webp" />
+            <source srcset="/src/images/desktop/pfofile.jpg 1x, /src/images/desktop/pfofile@2.jpg 2x" />
 
-              <img class="round-image" src="/src/images/desktop/pfofile.jpg" alt="profile1" />
-            </picture>
-          </div>
-          <div class="moreicecream-reviews-coment">
-            <p class="moreicecream-text-reviews">
-              I love visiting your cafe. You prepare the most delicious ice cream in Los Angeles! In
-              addition, you have beautiful serving, cozy atmosphere and polite staff.
-            </p>
-          </div>
-          <div class="moreicecream-reviews-name">
-            <p class="moreicecream-name-reviews">Emily, Los Angeles</p>
-          </div>
-          <!-- jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj -->
-          <div class="moreicecream-reviews-coment">
-            <p class="moreicecream-text-reviews">
-              Every day we come to you with friends after classes in college. We love your ice cream
-              and casual atmosphere!
-            </p>
-          </div>
-          <div class="moreicecream-reviews-name">
-            <p class="moreicecream-name-reviews">Bryan, New-York</p>
-          </div>
-          <div class="moreicecream-reviews-coment">
-            <p class="moreicecream-text-reviews">
-              Ice cream is my passion! I love your chocolate hazelnut ice cream! And I really like
-              the excellent service - always served politely and quickly!
-            </p>
-          </div>
-          <div class="moreicecream-reviews-name">
-            <p class="moreicecream-name-reviews">Diana, Chicago</p>
-          </div>
-          <div class="reviews-contcts">
-            <h3 class="contact-title visually-hidden">Contact</h3>
-            <ul class="reviews-contcts-list">
-              <li class="reviews-contcts-item">
-<p class="contact-title">CAFE</p>
-<p class="contact"
-              </li>
-              <li class="reviews-contcts-item">
-                
-              </li>
-              <li class="reviews-contcts-item">
-                
-              </li>
-            </ul>
-          </div>
+            <img class="round-image" src="/src/images/desktop/pfofile.jpg" alt="profile1" />
+          </picture>
         </div>
-      </section>
-    </main>
+        <div class="moreicecream-reviews-coment">
+          <p class="moreicecream-text-reviews">
+            I love visiting your cafe. You prepare the most delicious ice cream in Los Angeles! In
+            addition, you have beautiful serving, cozy atmosphere and polite staff.
+          </p>
+        </div>
+        <div class="moreicecream-reviews-name">
+          <p class="moreicecream-name-reviews">Emily, Los Angeles</p>
+        </div>
+        <!-- jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj -->
+        <div class="moreicecream-reviews-coment">
+          <p class="moreicecream-text-reviews">
+            Every day we come to you with friends after classes in college. We love your ice cream
+            and casual atmosphere!
+          </p>
+        </div>
+        <div class="moreicecream-reviews-name">
+          <p class="moreicecream-name-reviews">Bryan, New-York</p>
+        </div>
+        <div class="moreicecream-reviews-coment">
+          <p class="moreicecream-text-reviews">
+            Ice cream is my passion! I love your chocolate hazelnut ice cream! And I really like
+            the excellent service - always served politely and quickly!
+          </p>
+        </div>
+        <div class="moreicecream-reviews-name">
+          <p class="moreicecream-name-reviews">Diana, Chicago</p>
+        </div>
+        <div class="reviews-contcts">
+          <h3 class="contact-title visually-hidden">Contact</h3>
+          <ul class="reviews-contcts-list">
+            <li class="reviews-contcts-item">
+              <p class="contact-title">CAFE</p>
+              <p class="contact" </li>
+            <li class="reviews-contcts-item">
+
+            </li>
+            <li class="reviews-contcts-item">
+
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
 </body>
+
 </html>
