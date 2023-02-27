@@ -447,7 +447,7 @@ pointer-events: none;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #131313;
-  margin-bottom: 120px;
+  margin-bottom: 85px;
 
 }
 
@@ -557,7 +557,7 @@ pointer-events: none;
   text-transform: uppercase;
   color: #FCFCFC;
   margin-top: 60px;
-  margin-bottom: 19px;
+  margin-bottom: 15px;
 }
 
 .product-title {
@@ -578,11 +578,45 @@ pointer-events: none;
 
 .advantages-img {
   border-radius: 1852.2px;
-
 }
 
+/* div */
+.product-item-cow-img {
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  width: 490px;
+  height: 525px;
+
+  background: linear-gradient(0deg, rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7)), #D9D9D9;
+  box-shadow: inset 0px 8px 30px rgba(153, 114, 23, 0.25);
+  border-radius: 250px;
+}
+
+/* source */
+.advantages-img {
+  position: absolute;
+  top: 0px;
+  left: 0;
+  margin-top: 36px;
+}
+
+/* div */
+.made-text-btn {
+  display: inline-block;
+  vertical-align: middle;
+  width: 463px;
+  margin: auto;
+  text-align: start;
+  margin-top: 80px;
+  margin-left: 600px;
+}
+
+/* p */
 .made-text {
   max-width: 463px;
+  margin: auto;
+  margin-top: 8px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -590,10 +624,36 @@ pointer-events: none;
   line-height: 176%;
   letter-spacing: 0.04em;
   color: #FCFCFC;
+
 }
 
 .one {
-  margin-top: 172px;
+  margin-bottom: 8px;
+}
+
+.two {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 194%;
+  letter-spacing: 0.04em;
+  color: #FCFCFC;
+}
+
+.three {
+  margin-bottom: 50px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 194%;
+  letter-spacing: 0.04em;
+  color: #FCFCFC;
+}
+
+.made-list-svg {
+  margin-top: 62px;
 }
 
 .made-list {
@@ -633,9 +693,6 @@ pointer-events: none;
   margin-bottom: 12px;
 }
 
-.three {
-  margin-bottom: 54px;
-}
 
 .made-text-number {
   font-family: 'Montserrat';
@@ -649,32 +706,7 @@ pointer-events: none;
   margin-bottom: 160px;
 }
 
-.advantages-img {
-  display: inline-block;
-  vertical-align: middle;
-  position: absolute;
-  top: 30px;
-  left: 0;
-  /* background: linear-gradient(0deg, rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7)), #D9D9D9; */
-  border-radius: 250px;
-  box-shadow: 0px -30px 0px 0px rgba(248, 210, 78, 0.7);
 
-}
-
-.product-item-cow-img {
-  position: relative;
-
-
-  /* display: inline-block;
-  vertical-align: middle; */
-}
-
-.made-text-btn {
-  display: inline-block;
-  vertical-align: middle;
-  margin-top: -70px;
-  margin-left: 600px;
-}
 
 /****************************moreicecream**************/
 /* section */
@@ -685,14 +717,14 @@ pointer-events: none;
 /* div */
 .moreice-picture {
   margin: 0 auto;
-  width: 1013px;
-  border-radius: 50%;
+  width: 1022px;
+
 }
 
 /* picture */
 .img-moreicecrem {
   display: inline-block;
-  margin-top: -98px;
+  margin-top: -85px;
   border-radius: 24px;
   overflow: hidden;
 }
@@ -702,24 +734,17 @@ pointer-events: none;
 .reviews-profile {
   display: inline-block;
   margin: 0 auto;
-  margin-top: 140px;
+  margin-top: 134px;
   width: 85px;
   height: 85px;
 }
 
 /* div */
 .moreicecream-reviews-coment {
-  padding: 43px 109px;
+  padding: 40px 109px;
   margin-top: 50px;
   background-color: #84A178;
   border-radius: 24px;
-  max-width: 968px;
-  margin: 0 auto;
-
-}
-
-.moreicecream-reviews {
-  margin-bottom: 32px;
   text-align: center;
   /* width: 10%;
   margin: auto;
