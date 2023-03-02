@@ -518,6 +518,10 @@ pointer-events: none;
   margin-bottom: 50px;
 }
 
+.product-title-cream {
+  margin-bottom: 80px;
+}
+
 .cream-img {
   border-radius: 50%;
   /* margin-top: -16px; */
@@ -545,6 +549,12 @@ pointer-events: none;
   background-color: #84A178;
 }
 
+.made-label-title {
+  padding-bottom: 37px;
+  margin-bottom: 78px;
+  outline: 1px solid red;
+}
+
 .made-label {
   display: block;
   font-family: 'Montserrat';
@@ -560,7 +570,7 @@ pointer-events: none;
   margin-bottom: 15px;
 }
 
-.product-title {
+.made-title {
   font-family: 'Seymour One';
   font-style: normal;
   font-weight: 400;
@@ -572,51 +582,37 @@ pointer-events: none;
   color: #131313;
 }
 
-.product-title-cream {
-  margin-bottom: 80px;
-}
-
-.advantages-img {
-  border-radius: 1852.2px;
+.made-img-text-big {
+  display: flex;
+  gap: 109px;
+  outline: 1px solid black;
+  height: 490px;
+  margin-bottom: 62px;
 }
 
 /* div */
-.product-item-cow-img {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
+.made-item-cow-img {
   width: 490px;
-  height: 525px;
-
-  background: linear-gradient(0deg, rgba(248, 210, 78, 0.7), rgba(248, 210, 78, 0.7)), #D9D9D9;
-  box-shadow: inset 0px 8px 30px rgba(153, 114, 23, 0.25);
+  height: 530px;
   border-radius: 250px;
+  background-color: red;
+  overflow: hidden;
+  outline: 1px solid red;
+  -webkit-box-shadow: 0px -30px 29px 4px rgba(213, 171, 71, 1);
+  -moz-box-shadow: 0px -30px 29px 4px rgba(213, 171, 71, 1);
+  box-shadow: 0px -30px 29px 4px rgba(213, 171, 71, 1);
 }
 
-/* source */
-.advantages-img {
-  position: absolute;
-  top: 0px;
-  left: 0;
-  margin-top: 36px;
-}
+.advantages-img {}
 
 /* div */
 .made-text-btn {
-  display: inline-block;
-  vertical-align: middle;
-  width: 463px;
-  margin: auto;
-  text-align: start;
-  margin-top: 80px;
-  margin-left: 600px;
+  outline: 1px solid red;
 }
 
 /* p */
 .made-text {
-  max-width: 463px;
-  margin: auto;
-  margin-top: 8px;
+
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -624,14 +620,30 @@ pointer-events: none;
   line-height: 176%;
   letter-spacing: 0.04em;
   color: #FCFCFC;
+  /* width: 463px; */
 
 }
 
-.one {
+.made-text-one {
+  padding-top: 52px;
+  margin-bottom: 8px;
+  width: 463px;
+}
+
+.made-text-two {
+  width: 463px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 194%;
+  letter-spacing: 0.04em;
+  color: #FCFCFC;
   margin-bottom: 8px;
 }
 
-.two {
+.made-text-three {
+  width: 463px;
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
@@ -639,28 +651,24 @@ pointer-events: none;
   line-height: 194%;
   letter-spacing: 0.04em;
   color: #FCFCFC;
-}
-
-.three {
   margin-bottom: 50px;
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 194%;
-  letter-spacing: 0.04em;
-  color: #FCFCFC;
 }
 
+/* div */
 .made-list-svg {
-  margin-top: 62px;
+  width: 1168px;
+
+  margin: 0 auto;
+  outline: 1px solid red;
 }
 
+/* ul */
 .made-list {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 32px;
+  margin-bottom: 10px;
 }
 
 .made-btn {
@@ -693,7 +701,6 @@ pointer-events: none;
   margin-bottom: 12px;
 }
 
-
 .made-text-number {
   font-family: 'Montserrat';
   font-style: normal;
@@ -714,51 +721,46 @@ pointer-events: none;
   background-image: url(../images/desktop/background.jpg);
 }
 
+.container-moreice {
+  position: relative;
+  bottom: 93px;
+}
+
 /* div */
 .moreice-picture {
   margin: 0 auto;
-  width: 1022px;
-
-}
-
-/* picture */
-.img-moreicecrem {
-  display: inline-block;
-  margin-top: -85px;
+  width: 1013px;
+  height: 422px;
   border-radius: 24px;
   overflow: hidden;
 }
 
-/* img picture */
-.round-image,
-.reviews-profile {
-  display: inline-block;
+/*div img  */
+.moreicecream-reviews-img {
   margin: 0 auto;
-  margin-top: 134px;
   width: 85px;
   height: 85px;
 }
 
 /* div */
 .moreicecream-reviews-coment {
-  padding: 40px 109px;
-  margin-top: 50px;
+  width: 968px;
+  margin: 0 auto;
+  padding: 40px 110px;
   background-color: #84A178;
   border-radius: 24px;
   text-align: center;
-  /* width: 10%;
-  margin: auto;
-  display: block; */
-
 }
 
-.reviews-profile {}
+.moreicecream-reviews {
+  padding: 140px 0 32px;
+}
 
-.round-image {
+/* .round-image {
   margin: 0 auto;
   background-color: #0A8817;
 
-}
+} */
 
 /* p */
 .moreicecream-text-reviews {
