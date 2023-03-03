@@ -588,7 +588,7 @@ pointer-events: none;
   gap: 109px;
   /* outline: 1px solid black; */
   /* height: 490px; */
-  /* margin-bottom: 62px; */
+  margin-bottom: 62px;
 }
 
 /* div */
@@ -672,11 +672,12 @@ pointer-events: none;
   justify-content: center;
   align-items: center;
   gap: 32px;
-  margin-bottom: 166px;
+  margin-bottom: 10px;
+  margin-bottom: 170px;
 }
 
 .made-btn {
-  margin-bottom: 146px;
+  /* margin-bottom: 146px; */
 }
 
 .svg-cow {
@@ -730,7 +731,7 @@ pointer-events: none;
   bottom: 93px;
 }
 
-/* div */
+/* div  велике зображ*/
 .moreice-picture {
   margin: 0 auto;
   width: 1013px;
@@ -739,14 +740,19 @@ pointer-events: none;
   overflow: hidden;
 }
 
-/*div img  */
+/* div 1 фото */
+.moreicecream-reviews {
+  padding: 140px 0 32px;
+}
+
+/*div picture фото  */
 .moreicecream-reviews-img {
   margin: 0 auto;
   width: 85px;
   height: 85px;
 }
 
-/* div */
+/* div коментар */
 .moreicecream-reviews-coment {
   width: 968px;
   margin: 0 auto;
@@ -756,17 +762,7 @@ pointer-events: none;
   text-align: center;
 }
 
-.moreicecream-reviews {
-  padding: 140px 0 32px;
-}
-
-/* .round-image {
-  margin: 0 auto;
-  background-color: #0A8817;
-
-} */
-
-/* p */
+/* p коментар */
 .moreicecream-text-reviews {
   font-family: 'Montserrat';
   font-style: normal;
@@ -778,6 +774,7 @@ pointer-events: none;
   color: #FCFCFC;
 }
 
+/* p імя,адреса */
 .moreicecream-name-reviews {
   font-family: 'Montserrat';
   font-style: normal;
@@ -796,10 +793,19 @@ pointer-events: none;
   margin: -1px;
   border: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 
-.contact-title {
+
+
+
+
+
+
+
+/**********карточки**************/
+.contact-title-hidden {
   font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
@@ -808,4 +814,133 @@ pointer-events: none;
   text-align: center;
   color: #131313;
   margin-top: 32px;
+
+}
+
+.reviews-contcts {
+  display: flex;
+  justify-content: center;
+  gap: 36px;
+  /* margin: 0 auto; */
+  padding: 40px;
+  background: #FFFFFF;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+  background-color: transparent;
+}
+
+
+
+.contact-title {
+  width: 76px;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #131313;
+  background-color: #F8D24E;
+  margin-bottom: 32px;
+}
+
+.contact-title-food {
+  width: 148px;
+}
+
+.revievs-coment-contact {
+
+  /* display: flex; */
+
+}
+
+.reviews-contcts-list {
+  /* display: flex; */
+  background-color: #ffffff;
+  width: 368px;
+  height: 100%;
+  padding: 15px;
+
+}
+
+.reviews-contcts-item {}
+
+.contact-city {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 186%;
+  letter-spacing: 0.04em;
+  color: #131313;
+  margin-bottom: 8px;
+}
+
+.contact-street {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 183%;
+  letter-spacing: 0.04em;
+  color: #D6936D;
+  margin-bottom: 34px;
+  padding-bottom: 32px;
+  border: 1px solid #E1E1E1;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+
+.contact-day {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 186%;
+  letter-spacing: 0.04em;
+  color: #131313;
+}
+
+.contact-time {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 186%;
+  color: #ABABAB;
+  margin-bottom: 12px;
+}
+
+.contact-time-sun {
+  padding-bottom: 32px;
+  border: 1px solid #E1E1E1;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  margin-bottom: 34px;
+}
+
+.contact-tel-mailto {
+  /* padding: 15px; */
+}
+
+.contact-tel {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #131313;
+}
+
+.contact-mailto {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  color: #131313;
 }
