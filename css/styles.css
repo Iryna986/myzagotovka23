@@ -552,7 +552,7 @@ pointer-events: none;
 
 .made-label-title {
   padding-bottom: 37px;
-  margin-bottom: 78px;
+  margin-bottom: 40px;
   /* outline: 1px solid red; */
 }
 
@@ -596,13 +596,10 @@ pointer-events: none;
   width: 490px;
   height: 530px;
   border-radius: 50%;
-  background-color: # F0D579;
-  padding-top: 42 px;
+  background-color: #F0D579;
+  padding-top: 42px;
   overflow: hidden;
-  /* outline: 1px solid red;
-  -webkit-box-shadow: 0px -30px 29px 4px rgba(213, 171, 71, 1); */
-  -moz-box-shadow: 0px -30px 29px 4px rgba(213, 171, 71, 1);
-  box-shadow: 0px -30px 29px 4px rgba(213, 171, 71, 1);
+
 }
 
 .advantages-img {
@@ -611,7 +608,7 @@ pointer-events: none;
 
 /* div */
 .made-text-btn {
-  /* outline: 1px solid red; */
+  margin-top: 93px;
 }
 
 /* p */
@@ -629,10 +626,12 @@ pointer-events: none;
 }
 
 .made-text-one {
-  padding-top: 52px;
+
   margin-bottom: 8px;
   width: 463px;
 }
+
+
 
 .made-text-two {
   width: 463px;
@@ -700,7 +699,7 @@ pointer-events: none;
   line-height: 71px;
   text-align: center;
   letter-spacing: 0.04em;
-  text-transform: uppercase;
+  text-transform: lowercase;
   color: #FCFCFC;
   margin-top: 40px;
   margin-bottom: 12px;
@@ -850,7 +849,7 @@ pointer-events: none;
 
 
 .reviews-contcts-list {
-  
+
   background-color: #ffffff;
   width: 368px;
   height: 100%;

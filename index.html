@@ -109,20 +109,25 @@
         </div>
 
         <div class="hero-descreption-box">
-          <picture>
-            <source
-              srcset="
-                ./images/desktop/icecreamplate.png   1x,
-                ./images/desktop/icecreamplate@2.png 2x
-              "
-              media="(min-width: 1200px)"
-            />
-            <source
-              srcset="./images/tablet/icecreamplate.png 1x, ./images/tablet/icecreamplate@2.png 2x"
-              media="(min-width: 768px)"
-            />
-            <img src="./images/tablet/icecreamplate.png" alt="icecream" class="hero-plate" />
-          </picture>
+          <div class="hero-plate">
+            <picture>
+              <source
+                srcset="
+                  ./images/desktop/icecreamplate.png   1x,
+                  ./images/desktop/icecreamplate@2.png 2x
+                "
+                media="(min-width: 1200px)"
+              />
+              <source
+                srcset="
+                  ./images/tablet/icecreamplate.png   1x,
+                  ./images/tablet/icecreamplate@2.png 2x
+                "
+                media="(min-width: 768px)"
+              />
+              <img src="./images/tablet/icecreamplate.png" alt="icecream" />
+            </picture>
+          </div>
           <div class="hero-plate-text">
             <p class="hero-descreption-text">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
@@ -518,21 +523,18 @@
                 <!-- </li> -->
               </ul>
               <div class="revievs-button">
-              <ul class="revievs-button-list">
-                <li class="revievs-contact-button">
-                  <button type="button" class="location-btn">Our Locations</button>
-                </li>
-                <li class="revievs-contact-button">
-                  <button type="button" class="franchise-btn">Franchise</button>
-                </li>
-              </ul>
+                <ul class="revievs-button-list">
+                  <li class="revievs-contact-button">
+                    <button type="button" class="location-btn">Our Locations</button>
+                  </li>
+                  <li class="revievs-contact-button">
+                    <button type="button" class="franchise-btn">Franchise</button>
+                  </li>
+                </ul>
+              </div>
             </div>
-            </div>
-            
           </div>
-          
         </div>
-        
       </section>
     </main>
   </body>
