@@ -801,13 +801,9 @@ pointer-events: none;
   overflow: hidden;
 }
 
-
-
-
-
-
-
-
+.moreicecream-reviews-name {
+  margin-bottom: 170px
+}
 
 /**********карточки**************/
 .contact-title-hidden {
@@ -823,15 +819,17 @@ pointer-events: none;
 }
 
 .reviews-contcts {
+  position: relative;
+  bottom: 13px;
   display: flex;
   justify-content: center;
   gap: 36px;
   /* margin: 0 auto; */
   padding: 40px;
-  background: #FFFFFF;
+  background: #84A178;
   box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
   border-radius: 24px;
-  background-color: transparent;
+  /* background-color: transparent; */
 }
 
 
@@ -854,19 +852,15 @@ pointer-events: none;
   width: 148px;
 }
 
-.revievs-coment-contact {
 
-  /* display: flex; */
-
-}
 
 .reviews-contcts-list {
-  /* display: flex; */
+  
   background-color: #ffffff;
   width: 368px;
   height: 100%;
   padding: 15px;
-
+  border-radius: 24px
 }
 
 .reviews-contcts-item {}
@@ -939,6 +933,7 @@ pointer-events: none;
   font-size: 16px;
   line-height: 150%;
   color: #131313;
+  cursor: url(../images/cursor.svg), auto;
 }
 
 .contact-mailto {
@@ -948,4 +943,5 @@ pointer-events: none;
   font-size: 16px;
   line-height: 150%;
   color: #131313;
+  cursor: url(../images/cursor.svg), auto;
 }
