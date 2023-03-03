@@ -18,7 +18,7 @@ h6 {
 }
 
 button {
-  cursor: pointer;
+  cursor: url(../images/cursor.svg), auto;
 }
 
 ul,
@@ -580,7 +580,7 @@ pointer-events: none;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #131313;
+  color: #FCFCFC;
 }
 
 .made-img-text-big {
@@ -783,6 +783,7 @@ pointer-events: none;
   text-align: center;
   color: #131313;
   margin-top: 32px;
+  /* padding-bottom: 228px; */
 }
 
 .visually-hidden {
@@ -814,16 +815,12 @@ pointer-events: none;
 
 .reviews-contcts {
   position: relative;
-  bottom: 13px;
+  bottom: 110px;
   display: flex;
   justify-content: center;
   gap: 36px;
-  /* margin: 0 auto; */
-  padding: 40px;
-  background: #84A178;
-  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
-  border-radius: 24px;
-  /* background-color: transparent; */
+  /* padding: 40px; */
+ 
 }
 
 
@@ -840,22 +837,25 @@ pointer-events: none;
   color: #131313;
   background-color: #F8D24E;
   margin-bottom: 32px;
+  border-radius: 6px;
 }
 
 .contact-title-food {
   width: 148px;
+  border-radius: 6px;
 }
 
-
-
 .reviews-contcts-list {
-
   background-color: #ffffff;
   width: 368px;
   height: 100%;
   padding: 15px;
-  border-radius: 24px
+  border-radius: 24px;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  margin-bottom: 32px;
 }
+
+
 
 .reviews-contcts-item {}
 
@@ -920,6 +920,7 @@ pointer-events: none;
   /* padding: 15px; */
 }
 
+.contact-mailto,
 .contact-tel {
   font-family: 'Montserrat';
   font-style: normal;
@@ -930,12 +931,86 @@ pointer-events: none;
   cursor: url(../images/cursor.svg), auto;
 }
 
-.contact-mailto {
+
+/*****button*****/
+/* .revievs-button-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin-top: 60px;
+  padding: 15px;
+  gap: 16px;
+} */
+
+.revievs-button {
+  position: absolute;
+}
+.button-location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 16px;
+  /* outline: 1px solid red; */
+  position: relative;
+  right: 50%;
+  transform: translate(-50%, 0);
+}
+
+.contact-btn {
+  /* left: 396px;
+  top: 602px; */
+  width: 196px;
+  height: 42px;
+}
+
+.location-btn {
   font-family: 'Montserrat';
   font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 150%;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
   color: #131313;
-  cursor: url(../images/cursor.svg), auto;
+  background-color: #F8D24E;
+}
+
+.location-btn:hover {
+  color: #000000;
+  background-color: #0A8817;
+}
+
+.location-btn:focus {
+  color: #FCFCFC;
+  background-color: #0A8817;
+}
+
+.franchise-btn {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  text-align: center;
+  border-radius: 10px;
+  /* padding: 12px; */
+  border: 4px solid #F8D24E;
+  color: #000000;
+  background-color: transparent;
+}
+
+.franchise-btn:hover {
+  border: 4px solid #0A8817;
+}
+
+.franchise-btn:focus {
+  color: #FFFFFF;
+}
+
+.contact-button-svg {
+  margin-left: 7px;
 }
