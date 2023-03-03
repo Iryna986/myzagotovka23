@@ -820,7 +820,7 @@ pointer-events: none;
   justify-content: center;
   gap: 36px;
   /* padding: 40px; */
- 
+
 }
 
 
@@ -856,9 +856,6 @@ pointer-events: none;
 }
 
 
-
-.reviews-contcts-item {}
-
 .contact-city {
   font-family: 'Montserrat';
   font-style: normal;
@@ -880,10 +877,10 @@ pointer-events: none;
   color: #D6936D;
   margin-bottom: 34px;
   padding-bottom: 32px;
-  border: 1px solid #E1E1E1;
-  border-top: none;
+  border-bottom: 1px solid #E1E1E1;
+  /* border-top: none;
   border-left: none;
-  border-right: none;
+  border-right: none; */
 }
 
 
@@ -909,10 +906,7 @@ pointer-events: none;
 
 .contact-time-sun {
   padding-bottom: 32px;
-  border: 1px solid #E1E1E1;
-  border-top: none;
-  border-left: none;
-  border-right: none;
+  border-bottom: 1px solid #E1E1E1;
   margin-bottom: 34px;
 }
 
@@ -946,6 +940,7 @@ pointer-events: none;
 .revievs-button {
   position: absolute;
 }
+
 .button-location {
   display: flex;
   justify-content: center;
@@ -1013,4 +1008,95 @@ pointer-events: none;
 
 .contact-button-svg {
   margin-left: 7px;
+}
+
+/* ********************FOOTER************** */
+
+.footer-container {}
+
+
+.footer-position {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 120px;
+  border-bottom: 1px solid #E1E1E1;
+}
+
+.footer-text-box {
+  padding-bottom: 60px;
+}
+
+.footer-title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #FCFCFC;
+}
+
+.footer-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 71px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FCFCFC;
+
+}
+
+.footer-social-list {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 40px;
+  justify-content: flex-end;
+}
+
+.fotter-social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  fill: #84A178;
+  background-color: #EFD478;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+
+.fotter-social-list-link:hover,
+.fotter-social-list-link:focus {
+  fill: #FCFCFC;
+}
+
+
+.footer-contact-text {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 186%;
+  letter-spacing: 0.02em;
+  color: #131313;
+}
+
+.footer-tell {
+  color: #FCFCFC;
+}
+
+.footer-copyright {
+  background-color: #84A178;
+}
+
+.footer-copyright-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.52;
+  text-align: center;
+  color: #7A7A7A;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
