@@ -48,6 +48,12 @@ body {
 
 /*********header********************************/
 .header {
+  position: fixed;
+  top: 0;
+  left: 33%;
+  z-index: 10;
+  margin-top: -20px;
+  width: 10px;
   background-color: #84a178;
   padding-top: 8px;
 }
@@ -205,6 +211,7 @@ pointer-events: none;
 .hero-section-wrapper {
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .hero-header-btn {
