@@ -336,12 +336,6 @@ pointer-events: none;
   padding-bottom: 6px;
 }
 
-.hero-img-text {
-  /* display: flex;
-  justify-content: flex-start;
-  align-items: center; */
-}
-
 .hero-svg {
   display: block;
   fill: #FCFCFC;
@@ -545,12 +539,6 @@ pointer-events: none;
   /* margin-top: -16px; */
 }
 
-.product-svg {
-  /* margin-bottom: 60px; */
-}
-
-
-
 /**************How it"s made********************************************/
 
 .made {
@@ -682,9 +670,6 @@ pointer-events: none;
   margin-bottom: 170px;
 }
 
-.made-btn {
-  /* margin-bottom: 146px; */
-}
 
 .svg-cow {
   display: flex;
@@ -917,9 +902,7 @@ pointer-events: none;
   margin-bottom: 34px;
 }
 
-.contact-tel-mailto {
-  /* padding: 15px; */
-}
+
 
 .contact-mailto,
 .contact-tel {
@@ -1019,8 +1002,6 @@ pointer-events: none;
 
 /* ********************FOOTER************** */
 
-.footer-container {}
-
 
 .footer-position {
   display: flex;
@@ -1107,3 +1088,96 @@ pointer-events: none;
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+/*******************moreicecream**************/
+
+/* xs - устройства (до 576px) */
+/* CSS для ширины, которая меньше 575px (включительно) */
+
+/* sm-устройства (больше или равно 576px) */
+/* @media (min-width: 576px) { */
+/* CSS для: 576px <= ширины <= 767px */
+/* } */
+
+
+@media screen and (min-width: 480px) {
+  .container {
+    width: 480px;
+  }
+}
+
+/* md-устройства (больше или равно 768px) */
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  .product {
+    padding-top: 108px
+  }
+
+  .product-label-title {
+    margin-bottom: 85px;
+  }
+
+  .product-label {
+    font-size: 22px;
+    line-height: 27px;
+  }
+
+  .product-title {
+    font-size: 34px;
+    line-height: 43px;
+  }
+
+  .product-list {
+    gap: 16px;
+    margin-left: 32px;
+    margin-top: -3px;
+  }
+
+
+  .product-item-img {
+    width: 200px;
+    height: 210px;
+
+  }
+
+  .product-desc {
+    width: 224px;
+    height: 80%;
+    margin-top: 115px;
+  }
+
+  .product-title-item {
+    font-size: 22px;
+    margin-bottom: 37px;
+    padding-top: 107px;
+  }
+
+
+
+  .product-text {
+    font-size: 14px;
+    height: 192px;
+    margin: 0 26px 32px;
+    overflow: hidden;
+  }
+}
+
+
+/* lg-устройства (больше или равно 992px) */
+/* @media (min-width: 992px) { */
+/* CSS для: 992px <= ширины <= 1119px */
+/* } */
+
+/* xl-устройства (больше или равно 1200px) */
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1200px;
+  }
+
+  /* CSS для: ширины >= 1200px */
+}
+
+/* @media screen and (min-width: 768px) */
