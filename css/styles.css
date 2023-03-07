@@ -1111,7 +1111,7 @@ pointer-events: none;
   .container {
     width: 768px;
   }
-
+/********* P R O D U C T  card *******************************************/
   .product {
     padding-top: 108px
   }
@@ -1138,7 +1138,7 @@ pointer-events: none;
 
 
   .product-item-img {
-    width: 200px;
+   width: 200px;
     height: 210px;
 
   }
