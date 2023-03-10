@@ -1107,100 +1107,19 @@ body {
 /*******************moreicecream**************/
 
 @media screen and (max-width: 1900px) {
-  .viewport::after {
-    content: 'Styles for 1200 - 1900';
-  }
 
-  .container {
-    width: 1200px;
-    background-color: #a379f0;
-  }
 }
 
 @media screen and (max-width: 1199px) {
-  .viewport::after {
-    content: 'Styles for 768 - 1199';
-  }
 
-  .container {
-    width: 768px;
-    background-color: #F0D579;
-  }
 }
 
 @media screen and (max-width: 767px) {
-  .viewport::after {
-    content: 'Styles for 480 - 767';
-  }
 
-  .container {
-    width: 480px;
-    background-color: #f75858;
-  }
-
-  /********* P R O D U C T  card *******************************************/
-  .product {
-    padding-top: 108px
-  }
-
-  .product-label-title {
-    margin-bottom: 85px;
-  }
-
-  .product-label {
-    font-size: 22px;
-    line-height: 27px;
-  }
-
-  .product-title {
-    font-size: 34px;
-    line-height: 43px;
-  }
-
-  .product-list {
-    gap: 16px;
-    margin-left: 32px;
-    margin-top: -3px;
-  }
-
-
-  .product-item-img {
-    width: 200px;
-    height: 210px;
-
-  }
-
-  .product-desc {
-    width: 224px;
-    height: 80%;
-    margin-top: 115px;
-  }
-
-  .product-title-item {
-    font-size: 22px;
-    margin-bottom: 37px;
-    padding-top: 107px;
-  }
-
-
-
-  .product-text {
-    font-size: 14px;
-    height: 192px;
-    margin: 0 26px 32px;
-    overflow: hidden;
-  }
 }
 
 @media screen and (max-width: 479px) {
-  .viewport::after {
-    content: 'Styles for 320 - 479';
-  }
 
-  .container {
-    width: 320px;
-    background-color: aquamarine;
-  }
 }
 
 
