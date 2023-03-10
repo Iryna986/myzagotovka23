@@ -48,14 +48,14 @@ body {
 
 /*********header********************************/
 .header {
-  position: fixed;
+  /* position: fixed; */
   top: 0;
-  left: 33%;
-  z-index: 10;
-  margin-top: -20px;
-  width: 10px;
-  background-color: #84a178;
+  z-index: 1;
+  width: 100vw;
+  background-color: #84a178a6;
   padding-top: 8px;
+  outline: 2px solid red;
+  overflow: hidden;
 }
 
 .header-section {
@@ -1100,18 +1100,15 @@ pointer-events: none;
 /* } */
 
 
-@media screen and (min-width: 480px) {
-  .container {
-    width: 480px;
-  }
-}
+
 
 /* md-устройства (больше или равно 768px) */
-@media screen and (min-width: 768px) {
+@media screen and (max-width: 1199px) {
   .container {
     width: 768px;
   }
-/********* P R O D U C T  card *******************************************/
+
+  /********* P R O D U C T  card *******************************************/
   .product {
     padding-top: 108px
   }
@@ -1138,9 +1135,8 @@ pointer-events: none;
 
 
   .product-item-img {
-   width: 200px;
+    width: 200px;
     height: 210px;
-
   }
 
   .product-desc {
@@ -1156,7 +1152,6 @@ pointer-events: none;
   }
 
 
-
   .product-text {
     font-size: 14px;
     height: 192px;
@@ -1166,18 +1161,32 @@ pointer-events: none;
 }
 
 
+@media screen and (max-width: 767px) {
+  .container {
+    width: 480px;
+  }
+
+  .product-list {
+    flex-direction: column;
+
+  }
+
+  .product-list>li {
+    margin: 115px auto 0;
+  }
+}
+
 /* lg-устройства (больше или равно 992px) */
 /* @media (min-width: 992px) { */
 /* CSS для: 992px <= ширины <= 1119px */
 /* } */
 
 /* xl-устройства (больше или равно 1200px) */
-@media screen and (min-width: 1200px) {
+/* @media screen and (min-width: 1200px) {
   .container {
     width: 1200px;
-  }
+  } */
+/* } */
 
-  /* CSS для: ширины >= 1200px */
-}
 
 /* @media screen and (min-width: 768px) */
