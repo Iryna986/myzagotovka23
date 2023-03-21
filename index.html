@@ -53,21 +53,23 @@
             </ul>
           </nav>
           <!------ ---------------Button header------------------------->
-
-          <button type="button" class="header-btn">
-            <span class="header-btn-text">Buy now</span>
-            <span class="header-button-span-svg">
-              <svg class="header-button-svg" width="12" height="12">
-                <use href="./images/sprite.svg#vector"></use>
+          <div class="header-buttons">
+            <button type="button" class="header-modal-open">
+              <svg class="header-svg-open" width="32" height="32">
+                <use href="./images/sprite.svg#burger"></use>
               </svg>
-            </span>
-          </button>
+            </button>
+
+            <button type="button" class="header-btn">
+              <span class="header-btn-text">Buy now</span>
+              <span class="header-button-span-svg">
+                <svg class="header-button-svg" width="12" height="12">
+                  <use href="./images/sprite.svg#vector"></use>
+                </svg>
+              </span>
+            </button>
+          </div>
           <!----------------modal burger------------------------->
-          <!-- <button class="header-modal-open js-open-menu">
-          <svg class="header-svg-open" width="32" height="32">
-            <use href="./images/sprite.svg#burger"></use>
-          </svg>
-        </button> -->
         </div>
       </div>
       <!-- <div class="backdrop is-hidden"> 
@@ -312,44 +314,45 @@
               </button>
             </div>
           </div>
+          <div class="made-list-svg">
+            <ul class="made-list">
+              <li class="made-item">
+                <a href="#" class="svg-cow">
+                  <svg class="cow-svg" width="36" height="36">
+                    <use href="./images/sprite.svg#cow"></use>
+                  </svg>
+                </a>
+                <h2 class="made-number">721</h2>
+                <p class="made-text-number">
+                  Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+                </p>
+              </li>
+              <li class="made-item">
+                <a href="#" class="svg-cow">
+                  <svg class="cow-svg" width="36" height="36">
+                    <use href="./images/sprite.svg#weight"></use>
+                  </svg>
+                </a>
+                <h2 class="made-number">16kg</h2>
+                <p class="made-text-number">
+                  Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+                </p>
+              </li>
+              <li class="made-item">
+                <a href="#" class="svg-cow">
+                  <svg class="cow-svg" width="36" height="36">
+                    <use href="./images/sprite.svg#ice-crema"></use>
+                  </svg>
+                </a>
+                <h2 class="made-number">84</h2>
+                <p class="made-text-number">
+                  Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
+                </p>
+              </li>
+            </ul>
+          </div>
         </div>
-        <div class="made-list-svg">
-          <ul class="made-list">
-            <li class="made-item">
-              <a href="#" class="svg-cow">
-                <svg class="cow-svg" width="36" height="36">
-                  <use href="./images/sprite.svg#cow"></use>
-                </svg>
-              </a>
-              <h2 class="made-number">721</h2>
-              <p class="made-text-number">
-                Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-              </p>
-            </li>
-            <li class="made-item">
-              <a href="#" class="svg-cow">
-                <svg class="cow-svg" width="36" height="36">
-                  <use href="./images/sprite.svg#weight"></use>
-                </svg>
-              </a>
-              <h2 class="made-number">16kg</h2>
-              <p class="made-text-number">
-                Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-              </p>
-            </li>
-            <li class="made-item">
-              <a href="#" class="svg-cow">
-                <svg class="cow-svg" width="36" height="36">
-                  <use href="./images/sprite.svg#ice-crema"></use>
-                </svg>
-              </a>
-              <h2 class="made-number">84</h2>
-              <p class="made-text-number">
-                Aliquam ac dui vel dui vulputate consectetur. Mauris massa.
-              </p>
-            </li>
-          </ul>
-        </div>
+
         <!-- </div> -->
       </section>
       <!--------------------moreicecream--------------------->
@@ -587,7 +590,8 @@
               </li>
             </ul>
             <a href="tel:+610383766284" class="footer-tell">
-              <span class="footer-contact-text">Feel free to contact</span> +61 (0) 383 766 284</a
+              <span class="footer-contact-text">Feel free to contact</span
+              ><span class="footer-contact-number">+61 (0) 383 766 284</span></a
             >
           </div>
         </div>
